@@ -30,5 +30,9 @@
     "gulp-sourcemaps": "^1.9.1",
     "gulp-uglify": "^3.0.0",
     "gulp-zip": "^4.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "font-awesome": "^4.7.0"
   }
 }
