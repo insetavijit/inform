@@ -1,0 +1,18 @@
+{
+    "name": "inset/inform",
+    "description": " a simple minimal contact form plugin",
+    "type": "project",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "avijit sarkar",
+            "email": "avisofficeone@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": { "modules\\": "./inc" }
+    }
+}

@@ -20,8 +20,8 @@ if(file_exists( dirname( __FILE__ ) .'/vendor/autoload.php' )){
 define ( 'INFORM_PLUGIN_BASE_NAME' , plugin_basename( __FILE__ ));
 
 
-use modules\Base\Activate ;
-use modules\Base\Deactivate ;
+use modules\Config\Activate ;
+use modules\Config\Deactivate ;
 
 
 function inform_activation (){
@@ -34,8 +34,6 @@ function inform_deactivation (){
 
 register_activation_hook    ( __FILE__ , 'inform_activation' );
 register_deactivation_hook  ( __FILE__ , 'inform_deactivation');
-
-
 
 
 if( class_exists( 'modules\\Init') ){
